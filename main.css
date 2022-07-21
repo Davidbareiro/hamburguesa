@@ -1,0 +1,71 @@
+
+
+/* CSS RESET */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./imagenes/Boxeo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* NAVIGATION */
+
+nav{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    /* height: 140px; */
+    width: 140px;
+    margin-left: 20px;
+}
+
+.bar-btn{
+    font-size: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 20px;
+
+
+}
+
+.nav-menu{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 100px;
+    background: rgba(0,0,0,0.95);
+    text-align: center;
+    transition: all .5s;
+    
+
+    
+}
+
+/* BANNER TEXT */
+
+
+
+/* RESPONSIVE FOR DESKTOP */
